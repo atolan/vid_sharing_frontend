@@ -1,0 +1,221 @@
+.detail_share_button {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    width: 30%;
+}
+.play_button {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    width: 5vw;
+    cursor: pointer;
+}
+.evaluation img {
+    width: 40px;
+}
+.heart_text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #F9F4AA;
+}
+.detail_banner {
+    display: flex;
+    background-image: url(image/banner.png);
+    width: 100%;
+    background-size: cover;
+}
+.mark {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark > div {
+    width: 100px;
+    margin: auto;
+}
+.mark .button_outline {
+    margin: 10px;
+    width: 170px;
+}
+.video_info {
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.video_info_box {
+    padding: 20px;
+    border: 1px #957B76 solid;
+    border-radius: 8px;
+    outline: 1px #957B76 solid;
+    outline-offset: 5px;
+    width: 70%;
+    margin: auto;
+}
+.video_info_box h3 {
+    text-align: center;
+    color: white;
+}
+.info_content {
+    display: flex;
+    justify-content: space-between;
+    color: #F9F4AA;
+}
+.comment_box {
+    background-color: #FBFBFB;
+    border: #707070 1px solid;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.comment_inner {
+    padding: 20px;
+}
+.comment_inner span {
+    margin-left: 15px;
+    font-size: 0.7em;
+    color: #40403C;
+}
+.comment_inner hr {
+    margin-top: -15px;
+}
+.comment_text {
+    background-color: white;
+    border-radius: 8px;
+    border: #707070 1px solid;
+}
+.comment_text p {
+    margin: 15px;
+}
+.pagination {
+    margin-right: 0;
+}
+
+.vid_screen {
+    width: 70%;
+    margin: auto;
+    outline: 1.5px white solid;
+    outline-offset: -5px;
+}
+
+.video-prev-area{
+    width: 50%;
+    position: relative;
+    margin: auto;
+   
+}
+
+.video-play-area{
+    width: 50%;
+    margin:auto
+}
+
+.video-play-area div{
+    margin:auto;
+    width: 100% !important;
+    height: auto !important;
+}
+.comment_input textarea {
+    width: 100%;
+    border: 1px solid #0A55AE;
+    border-radius: 5px;
+}
+@media (max-width: 1200px) {
+    .vid_screen {
+        width: 60%;
+    }
+    .input_element input {
+        padding: 10px;
+        width: calc(100% - 22px);
+    }
+}
+@media (max-width: 993px) {
+    .mark .button_outline {
+        width: 150px;
+    }
+    .mark > div {
+        width: fit-content;
+    }
+    .video_info {
+        width: 65%;
+    }
+}
+@media (max-width: 769px) {
+    .mark {
+        background-color: rgba(0,0,0,0.5);
+        width: 30%;
+    }
+    .video_info {
+        width: 70%;
+    }
+    .mark .button_outline {
+        width: 120px;
+    }
+    .video_info_box {
+        outline-offset: 2px;
+        padding: 10px;
+    }
+    .video-prev-area {
+        width: 100%;
+    }
+    .video-play-area{
+        width: 100%;
+    }
+
+    .video-play-area div{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .box_card.upload {
+        top: 20%;
+    }
+    .box_card.upload .button_outline {
+        height: 28px;
+        line-height: 28px;
+    }
+    .box_card.upload .general_button_outline {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .css-tlfecz-indicatorContainer {
+        padding: 5px!important;
+    }
+}
+@media (max-width: 500px) {
+    .mark .button_outline {
+        width: 75px;
+        font-size: 10px;
+    }
+    .video_info_box {
+        width: 85%;
+        margin-left: 0;
+    }
+    .css-tlfecz-indicatorContainer {
+        padding: 3px!important;
+    }
+    .input_element input {
+        padding: 7px;
+        width: calc(100% - 16px);
+    }
+    .css-yk16xz-control {
+        min-height: 25px!important;
+    }
+    .css-g1d714-ValueContainer {
+        min-height: 25px!important;
+    }
+    .css-1hb7zxy-IndicatorsContainer {
+        min-height: 25px!important;
+    }
+    .vid_screen {
+        outline-offset: -3px;
+        width: 80%;
+    }
+}

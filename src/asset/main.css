@@ -1,0 +1,379 @@
+img {
+    width: 100%;
+    display: block;
+}
+body {
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+p {
+    margin-top: 1vw;
+    margin-bottom: 0.8vw;
+}
+.banner_sp {
+    display: none;
+}
+label {
+    display: block;
+}
+.input_element {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.input_element input {
+    outline: none;
+    width: calc(100% - 30px);
+    padding: 15px;
+    border-radius: 8px;
+    border: #BDD0CC 1px solid;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+::placeholder { 
+  color: #BDD0CC;
+  font-size: 16px;
+}
+.box_card {
+    top: 20%;
+    position: absolute;
+    width: 700px;
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 10px;
+    z-index: 100;
+}
+.card_inner {
+    padding: 40px 20px;
+}
+.notfound {
+    margin-top: 50px;
+    margin-bottom: 00px;
+}
+.notfound .general_button_outline {
+    margin-top: 70px;
+}
+.notfound img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@font-face {
+    font-family: SourceHanSansJP_R;
+    src: url(./font/SourceHanSansJP-Regular.otf);
+}
+@font-face {
+    font-family: KozMinPro_R;
+    src: url(./font/KozMinPro-Regular.otf);
+}
+.container {
+    max-width: 1366px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.font--white {
+    color: white;
+}
+.header {
+    position: relative;
+}
+.header_bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    margin-left: 15px;
+}
+.menu {
+    color: #F9F4AA;
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    margin-right: 15px;
+}
+.menu a {
+    color: #F9F4AA;
+}
+input, select {
+    outline: none;
+}
+.footer_img {
+    display: flex;
+    background-color: black;
+    position: relative;
+    z-index: -1;
+}
+.footer_img img {
+    width: 50%;
+    opacity: 0.5;
+}
+.footer_bar {
+    background-color: #1E1E1E;
+    min-height: 350px;
+    color:#F9F4AA;
+}
+.footer_nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    color:#F9F4AA;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footer_nav a {
+    color:#F9F4AA;
+}
+.social_link {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: auto;
+}
+.social_link img {
+    width: 40px;
+    margin: 10px;
+}
+.copyright {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.pc {
+    display: block;
+}
+.sp {
+    display: none!important;
+}
+.alert-modal .MuiDialog-paper{
+    width: 400px !important;
+}
+.comment_modal .MuiDialog-paper{
+    margin: 20px !important;
+}
+
+.btn-search{
+    background-color: #0A55AE!important;
+    color: white !important;
+    margin: 10px !important;
+    width: 120px !important;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.logoutbtn, .mypagebtn{
+    cursor: pointer;
+}
+.MuiDialogTitle-root {
+    padding: 5px 24px!important;
+    background-color: #0A55AE;
+    color: white;
+}
+.MuiDialogContentText-root {
+    margin-bottom: 5px!important;
+    margin-top: 15px!important;
+    padding-bottom: 15px!important;
+    border-bottom: 1px solid #0A55AE;
+}
+@media (max-width: 1600px) {
+    .container {
+    max-width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    .header_bar {
+        height: 60px;
+    }
+}
+@media (max-width: 1201px) {
+    .video_box {
+        width: 45%;
+        margin: 2%;
+    }
+    .input_element input {
+        padding: 13px;
+    }
+}
+@media (max-width: 993px) {
+    .container {
+        max-width: 95%;
+        margin-top: 70px;
+        margin-bottom: 90px;
+    }
+    .card_inner h1 {
+        font-size: 30px;
+    }
+    .header_bar {
+        height: 50px;
+    }
+    .footer_nav a {
+        font-size: 12px;
+    }
+    .footer_nav {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .social_link {
+        width: 220px;
+    }
+    .social_link img {
+        width: 30px;
+    }
+    .footer_bar {
+        min-height: 240px;
+    }
+    .box_card {
+        width: 75%;
+    }
+    .notfound .general_button_outline {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 769px) {
+    .card_inner h1 {
+        font-size: 28px;
+    }
+    .banner_sp {
+        display: block;
+    }
+    h2, h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .footer_nav {
+        width: 70%;
+    }
+    .copyright {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    .input_element {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    .box_card {
+        top: 40%;
+    }
+    .card_inner {
+        padding: 20px 15px;
+    }
+    .notfound .general_button_outline {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 670px) {
+    .footer_nav {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .footer_bar {
+        min-height: 200px;
+    }
+    .menu {
+        width: 180px;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+    label {
+        font-size: 14px;
+    }
+    .pc {
+        display: none!important;
+    }
+    .sp {
+        display: block!important;
+    }
+    .card_inner h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    h2 , h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .header_bar {
+        height: 40px;
+    }
+    .evaluation {
+        font-size: 20px;
+    }
+    .container {
+        max-width: 95%;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+    .menu {
+        width: 150px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .box_card {
+        width: 85%;
+        border-radius: 5px;
+    }
+    .card_inner {
+        padding: 15px 10px;
+    }
+    .input_element {
+        width: 85%;
+        margin-bottom: 5px;
+    }
+    .input_element input {
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .social_link {
+        width: 180px;
+    }
+    .social_link img {
+        width: 25px;
+        margin: 0 2px;
+    }
+    .full_height {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    .notfound .general_button_outline {
+        margin-top: 30px;
+    }
+}
+
+.spin-modal .MuiDialog-paper{
+    background-color: transparent !important;
+    padding: 10px !important;
+    box-shadow: none !important;
+  }
