@@ -8,6 +8,7 @@ import './../../asset/main.css';
 import './../../asset/mypage.css';
 import axios from 'axios';
 const baseurl = process.env.REACT_APP_BASE_URL;
+
 class Registration extends Component{
     constructor(props) {
         super(props);
